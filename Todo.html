@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Todo.css">
+    <title>TO DO LIST</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar-box">
+            <div class="completed">Completed Task</div>
+        </div>
+        <div class="main-container">
+            <nav class="navbar">
+                <h1 id="project-name">To do list</h1>
+            </nav>
+            <div class="main">
+                <div class="input-box-container">
+                    <input class="input-box" type="text" placeholder="Write something..">
+                    <button class="add-task-button">Add Task</button>
+                </div>
+                <div class="main-content">
+                    <h2 class="tasks-heading visibility">Tasks</h2>
+                    <div class="all-tasks">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Todo.js"></script>
+    </body>
+</html>
